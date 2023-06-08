@@ -1,0 +1,30 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vh;
+    background-image: url(https://cutewallpaper.org/23/stars-wallpaper-4k/1977513541.jpg);
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.globe {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url(https://s.libertaddigital.com/fotos/noticias/mapamundi301210.jpg);
+    background-size: cover;
+    box-shadow: -25px -25px 25px #03020f inset, 10px 10px 30px #928fb4 inset, 0px 0px 20px #0a192b;
+    animation: rotate 35s linear infinite;
+}
+
+@keyframes rotate {
+    to{background-position: 100%;}
+}
